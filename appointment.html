@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book - Appointment</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Caveat:wght@400..700&family=Ga+Maamli&family=Kalam:wght@300;400;700&family=Rubik+Marker+Hatch&family=Shalimar&family=Syne+Tactile&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <!-- header starts from here -->
+    <header class="text-gray-600 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <!-- Image Tag Added -->
+            <img src="images/favicon.png" alt="Your Image" class="w-10 h-10 rounded-full ml-3">
+            <span class="ml-3 text-xl" style="font-family: Kalam, cursive;" >Book Appointment</span>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900" style="color: black;" href="index.html" >Home</a>
+            <a class="mr-5 hover:text-gray-900" style="color: black;" href="service.html" >Our Services</a>
+            <a class="mr-5 hover:text-gray-900" style="color: black;" href="tel:+911234567890" >Contact Us</a>
+            <!-- <a class="mr-5 hover:text-gray-900">Fourth Link</a> -->
+          </nav>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a style="color: black;" href="https://maps.app.goo.gl/fvZGQaNQ8nNioLht9">Locate US</a>
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+     <!-- Ends here  -->
+      <!-- Heading starts  -->
+       <h1>Book your appointment quickly and conveniently.</h1>
+       <!-- Ends here -->
+    <!-- Apointment form starts from here and css also  -->
+    <style> .form-basin { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; padding: 40px 20px 40px 20px; font-size: 16px; font-weight: 400; background-color: transparent; } .form-basin form { margin: auto; max-width: 600px; } .form-basin label { display: block; margin-bottom: 8px; } .form-basin input, .form-basin textarea, .form-basin select { width: 100%; padding: 12px; margin-bottom: 16px; font-family: inherit; border: 1px solid #ccc; border-radius: 4px; box-sizing: border-box; transition: border-color 0.3s; } .form-basin input:focus, .form-basin textarea:focus, .form-basin select:focus { border-color: #007bff; outline: none; } .form-basin button { background-color: #007bff; color: white; padding: 10px 20px; border: none; border-radius: 4px; cursor: pointer; font-weight: 500; letter-spacing: 1px; transition: background-color 0.3s; } .form-basin button:hover { filter: brightness(85%); } .form-basin ::placeholder { font-family: inherit; opacity: 0.7; } .form-basin input[type='checkbox'] { margin-right: 8px; width: auto; } .form-basin fieldset { border: 1px solid #ccc; padding: 10px; margin-bottom: 16px; border-radius: 4px; } .form-basin legend { padding: 0 10px; font-weight: bold; font-size: 1em; } .form-basin input[type='radio'] { margin-right: 8px; margin-top: 4px; width: auto; cursor: pointer; } .form-basin .radio-label { display: inline-block; margin-right: 15px; cursor: pointer; } .form-basin .radio-group { margin-bottom: 16px; } .form-basin .donation-type { margin-bottom: 16px; } .form-basin .donation-type span { font-weight: 500; margin-right: 10px; } .form-basin input[type='number'] { -webkit-appearance: textfield; -moz-appearance: textfield; appearance: textfield; } .form-basin input[type='number']::-webkit-inner-spin-button, .form-basin input[type='number']::-webkit-outer-spin-button { -webkit-appearance: none; margin: 0; } .form-basin .form-check { display: flex; align-items: center; margin-bottom: 16px; } .form-basin .form-check-input { margin-top: 14px; margin-right: 10px; cursor: pointer; } .form-basin .form-check-label { margin-bottom: 0; cursor: pointer; }</style>
+
+<div spellcheck="true"  class="form-basin">
+  <form action="https://formspree.io/f/mblrbryd" method="POST">
+    <label for="fullName">Full Name:</label>
+    <input type="text" id="fullName" name="fullName" placeholder="Your Full Name" required >
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Your Email">
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required >
+
+    <label for="appointmentDate">Appointment Date:</label>
+    <input type="date" id="appointmentDate" name="appointmentDate" required >
+
+    <label for="serviceType">Type of Doctor:</label required >
+    <select id="serviceType" name="serviceType">
+      <option value="">Select Department</option>
+      <option value="Orthopedics">Orthopedics</option>
+      <option value="gastrologist">Gastrologist</option>
+      <option value="gynecologist">Gynecologist</option>
+      
+    </select>
+
+    <label spellcheck="true" for="notes">Additional Notes:</label>
+    <textarea id="notes" name="notes" placeholder="Any special instructions or requests"></textarea>
+
+    <button  style="background-color: darkcyan; font-family: Kalam, cursive;" type="submit">Book Appointment</button>
+  </form>
+</div>
+
+<style>
+  h1{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-family: "Kalam", cursive;
+    font-size: 17px;
+  }
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    /* font-family: 'Roboto', sans-serif; */
+    /* add manualy to some sections so delete below one and let top one be  */
+    font-family: "Caveat", cursive;
+    font-size: 20px;
+    
+}
+</style>
+
+
+</body>
+</html>

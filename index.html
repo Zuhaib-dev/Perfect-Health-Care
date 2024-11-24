@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>html { scroll-behavior: smooth; }</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HealthCare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<!-- Tailwind Script file starts from here  -->
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- Tailwind end -->
+ <!-- fonts   -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Akronim&family=Caveat:wght@400..700&family=Ga+Maamli&family=Kalam:wght@300;400;700&family=Rubik+Marker+Hatch&family=Shalimar&family=Syne+Tactile&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div id="xuhaib">
+
+  </div>
+    <header>
+        <nav class="section-container nav-container">
+            <div class="nav-logo">Perfect<span> Health-Care</span></div>
+            <ul class="nav-links">
+                <li><a href="appointment.html">Book Appointment</a></li>
+                <li><a href="service.html">See Services</a></li>
+                <li><a href="tel:+91">Contact Us</a></li>
+                <li><a href="#">Follow Us</a></li>
+            </ul>
+            <button class="btn"><a href="tel:+916006414088">Contact Us</a></button>
+        </nav>
+        <div class="section-container header-container">
+            <div class="header-content">
+            <h1>Providing an Exceptional Patient Experience</h1>
+            <p>Welcome, where exceptional patient experience
+               are our priority. with compassionate care,
+               state-of-the-art facilities, and a patient-centered 
+               approach, we're dedicated to your well-being. trust
+               us with your health and experience the difference.
+            </p>
+           <button class="btn"><a href="service.html">See Services</a></button>
+        </div> 
+        <div class="header-form">
+            
+            <form action="https://formspree.io/f/mblrbryd" method="post">
+              <h4>Book Now</h4>
+              <input type="text" name="first_name" placeholder="Full Name" required>
+              <input type="text" name="address" placeholder="Address" required>
+              <input type="tel" name="phone" placeholder="Phone No." required>
+              
+               <!-- new -->
+               <select id="serviceType" name="placeholder" required>
+                <option  value="placeholder">Select Department</option required >
+                <option value="Orthopedics">Orthopedics</option required>
+                <option value="gastrologist">Gastrologist</option required >
+                <option value="gynecologist">Gynecologist</option required >
+                
+              </select> 
+              <!-- new system -->
+              <input type="text" name="message" placeholder="Message" >
+
+              <button type="submit" class="btn form-btn">Book Appointment</button>
+          </form>
+          
+        </div>
+        </div>
+    </header>
+
+<section class="section-container service-container">
+    <div class="service-header">
+        <div class="service-header-content">
+            <h2 class="section-header">Our Special Service</h2>
+            <p>Beyond simply providing medical care, return new Promise
+                commitment lies in delivering unparalled service
+                tailored to your unique needs.
+           </p>
+        </div>
+        <button class="service-btn">
+            <a href="tel:+911234567890">Ask for service</a>
+        </button>
+    </div>
+
+    <div class="service-grid">
+        <div class="service-card">
+            <span><i class="ri-microscope-line"></i></span>
+            <h4>Laboratory Test</h4>
+            <p>Accurate Dignostics, swift results: Experience
+                top-notch Laboratory testing at our facility.
+            </p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="service-card">
+            <span><i class="ri-mental-health-line"></i></i></span>
+            <h4>Healath Check</h4>
+            <p>Accurate Dignostics, swift results: Experience
+                top-notch Laboratory testing at our facility.
+            </p>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="service-card">
+            <span><i class="ri-hospital-line"></i></span>
+            <h4>Genral Dentistry</h4>
+            <p>Accurate Dignostics, swift results: Experience
+                top-notch Laboratory testing at our facility.
+            </p>
+            <a href="#">Learn More</a>
+        </div>
+    </div>
+
+</section>
+
+<section class="section-container about-container">
+    <div class="about-content">
+        <h2 class="section-header">About Us</h2>
+        <p>Welcome to our healthcare website, your
+            one-stop destination for reliable and comprensive health
+            care information. We are committed to promoting wellness
+            and providing valuable resources to 
+            empower you on your health journey.
+
+        </p>
+        <p >Explore our extensive collection of expertly written
+            articles and guides covering a wide range of health topics.
+            From understanding common medical conditions to tips for
+            maintaining a healthy lifestyle, our content is designed
+            to educate, inspire, and support you in making 
+            informed choice for your health.
+        </p>
+        <p>
+            Discover practical health tips and lifestyle advice to 
+            optimize youe physical and mental well-being. we believe
+            that small changes can lead to significant improvements in your
+            quality of life, and we're here to guide you on
+            your path to a healthier and happier you.
+
+        </p>
+    </div>
+    <div class="about-image"><img loading="lazy" src="images/about.jpg" alt=""></div>
+</section>
+
+
+<section class="section-container why-container">
+    <div class="why-image"><img loading="lazy" src="images/choose-us.jpg" alt=""></div>
+    <div class="why-content">
+        <h2 class="section-header">Why Choose Us</h2>
+        <p>With a steadfast commitment to your well-being,
+            our team of highly trained healthcare professionls ensure that 
+            you recieve nothing short of exceptional patient experiences.
+        </p>
+        <div class="why-grid">
+            <span><i class="ri-hand-heart-line"></i></span>
+            <div>
+        <h4>Intensive Care </h4>
+        <p>Our intensive care unit is equipped with advanced technology
+            and staffed by team of professionls
+        </p>
+            </div>
+            <span><i class="ri-syringe-line"></i></span>
+            <div>
+        <h4>Free Sample  Collect</h4>
+        <p>A compassionateinitiative to prioritize your
+            health and well-being without and financial burden.
+        </p>
+            </div>
+            <span><i class="ri-hospital-line"></i></span>
+            <div>
+        <h4>Medical and Surgical</h4>
+        <p>Our medical and surgical service offer advanced healthcare
+            solutions to address medical needs.
+        </p>
+            </div>
+    </div>
+    </div>
+    
+</section>
+
+<section class="doctor-container section-container">
+    <div class="doctors-header">
+        <div class="doctors-header-content">
+            <h2 class="section-header">Our Special Doctors</h2>
+            <p>We take pride in our exceptionalteam of doctors, each
+                a specialist in their respective fields.
+            </p>
+        </div>
+            <div class="doctors-nav">
+                <span><i class="ri-arrow-left-line"></i></span>
+                <span><i class="ri-arrow-right-line"></i></span>
+
+            </div>
+        
+    </div>
+    <div class="doctors-grid">
+            <div class="doctors-card">
+                <div class="doctors-card-image">
+                    <img loading="lazy" src="images/doctor-1.jpg" alt="">
+                
+                
+                <div class="doctors-socials">
+                  <a href="https://instagram.com" target="_blank" title="Instagram"><span><i class="ri-instagram-line"></i></span></a>
+                  <a href="https://facebook.com" target="_blank" title="Facebook"><span><i class="ri-facebook-fill"></i></span></a>
+                  <a href="https://twitter.com" target="_blank" title="Twitter"><span><i class="ri-twitter-fill"></i></span></a>
+                  <a href="https://example.com" target="_blank" title="Favorite"><span><i class="ri-mail-fill"></i></span></a>
+              </div>
+              
+            </div>
+            <h4>Dr. Uma Sharma</h4>
+            <p>Cardiologist</p>
+
+        </div>
+      
+       <div class="doctors-card">
+                <div class="doctors-card-image">
+                    <img loading="lazy" src="images/doctor-2.jpg" alt="">
+                
+                    <div class="doctors-socials">
+                      <a href="https://instagram.com" target="_blank" title="Instagram"><span><i class="ri-instagram-line"></i></span></a>
+                      <a href="https://facebook.com" target="_blank" title="Facebook"><span><i class="ri-facebook-fill"></i></span></a>
+                      <a href="https://twitter.com" target="_blank" title="Twitter"><span><i class="ri-twitter-fill"></i></span></a>
+                      <a href="https://example.com" target="_blank" title="Favorite"><span><i class="ri-mail-fill"></i></span></a>
+                  </div>
+                  
+            </div>
+            <h4>Dr. Mahesh Sharma</h4>
+            <p>Neurosurgeon</p>
+
+        </div>
+        
+        <div class="doctors-card">
+                <div class="doctors-card-image">
+                    <img loading="lazy" src="images/doctor-3.jpg" alt="">
+                    <div class="doctors-socials">
+                      <a href="https://instagram.com" target="_blank" title="Instagram"><span><i class="ri-instagram-line"></i></span></a>
+                      <a href="https://facebook.com" target="_blank" title="Facebook"><span><i class="ri-facebook-fill"></i></span></a>
+                      <a href="https://twitter.com" target="_blank" title="Twitter"><span><i class="ri-twitter-fill"></i></span></a>
+                      <a href="https://example.com" target="_blank" title="Favorite"><span><i class="ri-mail-fill"></i></span></a>
+                  </div>
+                  
+            </div>
+            <h4>Dr. Prem Sharma</h4>
+            <p>Dermatologist</p>
+            
+
+        </div>
+    </div>
+</section>
+<!-- Book appointment button from here -->
+ <button class="btn"><a href="appointment.html">Book Appointment</a></button>
+ 
+<!-- Our team section starts from here  -->
+<section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest" style="color: black; 
+        font-family: Kalam, cursive;;
+        font-size: xx-large ;
+        ">OUR TEAM</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base" style="color: rgb(3, 3, 3);
+        cursor: pointer;
+        /* font-family: font-family  Handjet, sans-serif;; */
+        ">Our clinic is spearheaded by two visionary co-owners, blending unparalleled expertise and a commitment to exceptional patient care. They drive innovation and compassion, ensuring a superior healthcare experience </p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <!-- Member 1 -->
+        <div class="p-4 lg:w-1/2">
+          <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="images/Dar Ubaid.jpg">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900" >Dar Ubaid</h2>
+              <h3 class="text-gray-500 mb-3">Co-Founder & Co-Owner</h3>
+              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <span class="inline-flex">
+                <a href="https://www.facebook.com/uba.id.3386" class="text-gray-500" target="_blank" rel="noopener noreferrer">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a href="https://x.com/xuhaib_x9" class="ml-2 text-gray-500" target="_blank" rel="noopener noreferrer">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a href="mailto:samzuhaib52122@gmail.com" class="ml-2 text-gray-500" target="_blank" rel="noopener noreferrer">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- Member 2 -->
+        <div class="p-4 lg:w-1/2">
+          <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="images/Mir Emraan.jpg">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Mir Emraan</h2>
+              <h3 class="text-gray-500 mb-3">Co-Founder & Co-Owner</h3>
+              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <span class="inline-flex">
+                <a href="https://www.facebook.com/miremraan19" class="text-gray-500" target="_blank" rel="noopener noreferrer">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a href="https://x.com/xuhaib_x9" class="ml-2 text-gray-500" target="_blank" rel="noopener noreferrer">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a href="mailto:xuvaxuva006@gmail.com" class="ml-2 text-gray-500" target="_blank" rel="noopener noreferrer">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- Member 3 -->
+        <div class="p-4 lg:w-1/2">
+          <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="images/Dar Ubaid.jpg">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Atticus Finch</h2>
+              <h3 class="text-gray-500 mb-3">UI Developer</h3>
+              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <span class="inline-flex">
+                <a href="https://www.linkedin.com/in/xuhaib-rashid-661345318" class="text-gray-500" target="_blank" rel="noopener noreferrer">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a href="https://x.com/xuhaib_x9" class="ml-2 text-gray-500" target="_blank" rel="noopener noreferrer">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a href="https://github.com/Zuhaib-dev/Projects.git" class="ml-2 text-gray-500" target="_blank" rel="noopener noreferrer">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+        <!-- Member 4 -->
+        <div class="p-4 lg:w-1/2">
+          <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+            <img alt="team" class="flex-shrink-0 rounded-lg w-48 h-48 object-cover object-center sm:mb-0 mb-4" src="images/Mir Emraan.jpg">
+            <div class="flex-grow sm:pl-8">
+              <h2 class="title-font font-medium text-lg text-gray-900">Raisin Bean</h2>
+              <h3 class="text-gray-500 mb-3">Backend Developer</h3>
+              <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+              <span class="inline-flex">
+                <a href="https://www.linkedin.com/in/xuhaib-rashid-661345318" class="text-gray-500" target="_blank" rel="noopener noreferrer">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                  </svg>
+                </a>
+                <a href="https://x.com/xuhaib_x9" class="ml-2 text-gray-500" target="_blank" rel="noopener noreferrer">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                  </svg>
+                </a>
+                <a href="https://github.com/Zuhaib-dev/Projects.git" class="ml-2 text-gray-500" target="_blank" rel="noopener noreferrer">
+                  <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                    <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                  </svg>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+ <!-- and ends here  -->
+  <!-- if more members have to add add from here  -->
+
+<!-- heading of testimonials starts from here  -->
+ <h1 class="testimonials">Voices of Healing & Trust</h1>
+<!-- Testimonials starts from here -->
+<section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="images/zuhaib.jpg">
+            <p class="leading-relaxed" style="font-family: Caveat, cursive; font-size: 20px;" >"Perfect Healthcare made everything so easy! The staff was super friendly,the doctors actually listened to  my concerns.I felt supported and left feeling better.Highly recommend for anyone seeking quality care!"</p>
+            <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm" style="font-family: Kalam, cursive;font-size: large; " >Zuhaib Rashid📍</h2>
+            <p class="text-gray-500"  >Well-Treated and Happy</p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="images/zuhaib.jpg">
+            <p class="leading-relaxed" style="font-family: Caveat, cursive; font-size: 20px;" >"From the moment I arrived, I knew I was in good hands. The team is professional, and they genuinely care about your health. Perfect Healthcare is my top choice for medical care!"</p>
+            <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm"   >ALPER KAMU</h2>
+            <p class="text-gray-500"style="font-family: Caveat, cursive; font-size: 20px;">Feeling Better than Ever
+            </p>
+          </div>
+        </div>
+        <div class="lg:w-1/3 lg:mb-0 p-4">
+          <div class="h-full text-center">
+            <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src="images/zuhaib.jpg">
+            <p class="leading-relaxed"style="font-family: Caveat, cursive; font-size: 20px;">"Perfect Healthcare provided such an incredible experience. The staff was attentive, and the doctors really listened to my concerns. I felt supported every step of the way. Highly recommend!"</p>
+            <span class="inline-block h-1 w-10 rounded bg-green-500 mt-6 mb-4"></span>
+            <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm  " >HENRY LETHAM</h2>
+            <p class="text-gray-500"style="font-family: Caveat, cursive; font-size: 20px;">Cared for with Kindness</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ <!-- Testimonials ends here -->
+  <!-- FAQ section starts from here  -->
+
+<div class="bg-white-100 py-8">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl font-extrabold text-gray-900 text-center mb-6">Frequently Asked Questions📍</h2>
+    
+    <div class="space-y-4">
+      <!-- Question 1 -->
+      <div class="bg-white p-4 rounded-lg shadow">
+        <button class="w-full text-left focus:outline-none" onclick="toggleAnswer(1)">
+          <div class="flex justify-between items-center">
+            <h3 class="text-lg font-medium text-gray-900">What services does Perfect Health Care offer?</h3>
+            <span class="text-blue-600" id="icon-1">+</span>
+          </div>
+        </button>
+        <div class="mt-2 hidden" id="answer-1">
+          <p class="text-gray-600" style="font-size: 20px;">We offer a range of health services, including primary care, specialist consultations, and telemedicine services to ensure your well-being.</p>
+        </div>
+      </div>
+
+      <!-- Question 2 -->
+      <div class="bg-white p-4 rounded-lg shadow">
+        <button class="w-full text-left focus:outline-none" onclick="toggleAnswer(2)">
+          <div class="flex justify-between items-center">
+            <h3 class="text-lg font-medium text-gray-900">How can I book an appointment?</h3>
+            <span class="text-blue-600" id="icon-2">+</span>
+          </div>
+        </button>
+        <div class="mt-2 hidden" id="answer-2">
+          <p class="text-gray-600"style="font-size: 20px;">You can book an appointment via our website or by calling our helpline. We also offer an online booking system for telemedicine.</p>
+        </div>
+      </div>
+
+      <!-- Question 3 -->
+      <div class="bg-white p-4 rounded-lg shadow">
+        <button class="w-full text-left focus:outline-none" onclick="toggleAnswer(3)">
+          <div class="flex justify-between items-center">
+            <h3 class="text-lg font-medium text-gray-900">Do you accept health insurance?</h3>
+            <span class="text-blue-600" id="icon-3">+</span>
+          </div>
+        </button>
+        <div class="mt-2 hidden" id="answer-3">
+          <p class="text-gray-600"style="font-size: 20px;">Yes, we accept a wide range of health insurance plans. Please contact our billing department for more information.</p>
+        </div>
+      </div>
+
+      <!-- Question 4 -->
+      <div class="bg-white p-4 rounded-lg shadow">
+        <button class="w-full text-left focus:outline-none" onclick="toggleAnswer(4)">
+          <div class="flex justify-between items-center">
+            <h3 class="text-lg font-medium text-gray-900">What are the clinic's working hours?</h3>
+            <span class="text-blue-600" id="icon-4">+</span>
+          </div>
+        </button>
+        <div class="mt-2 hidden" id="answer-4">
+          <p class="text-gray-600"style="font-size: 20px;">Our clinics are open Monday to Friday, from 8:00 AM to 6:00 PM, and Saturday from 9:00 AM to 2:00 PM.</p>
+        </div>
+      </div>
+      <!-- Question 5 -->
+    </div>
+  </div>
+</div>
+
+  <!-- and Ends Here 📍 -->
+   
+<!-- Blog section -->
+<section class="py-10">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" >
+    <h2 class="text-3xl font-bold text-center mb-6">Latest Health Tips</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white shadow-md rounded-lg p-6">
+        <img src="images/blog 1.webp" alt="Blog Post" class="mb-4">
+        <h3 class="text-xl font-bold mb-2">How to Stay Healthy During Flu Season</h3>
+        <p class="text-gray-600"style="font-size: 20px;">Discover simple strategies to protect yourself from the flu, including vaccination, hygiene practices, and immune-boosting tips. Stay healthy all season long.</p>
+        <a  style="font-size: 24px;" href="https://seniorsbluebook.com/articles/cold-and-flu-prevention-for-seniors-10-ways-to-stay-healthy-this-flu-season" class="text-orange-600 hover:text-blue-800">leran more</a>
+
+      </div>
+      <!-- Repeat for other blog posts -->
+       <div class="bg-white shadow-md rounded-lg p-6">
+        <img src="images/blog 4.webp" alt="Blog Post" class="mb-4
+        ">
+        <h3 class="text-xl font-bold mb-2">The Importance of Regular Health Checkups</h3>
+        <p class="text-gray-600"style="font-size: 20px;">Routine checkups can help detect potential health issues early, ensuring timely treatment and better health outcomes. Learn why you should never skip them.</p>
+        <a style="font-size: 24px;" href="https://www.lalpathlabs.com/blog/importance-of-health-checkup/" class="text-orange-600 hover:text-blue-800">leran more
+          </a>
+          
+    </div>
+    <!-- anotehr -->
+     <div class="bg-white shadow-md rounded-lg p-6">
+      <img src="images/blog 3.jpg" alt="Blog Post" class="mb-4">
+      <h3 class="text-xl font-bold mb-2">How to Manage Stress for Better Health</h3>
+      <p class="text-gray-600" style="font-size: 20px;" >Chronic stress can lead to numerous health problems. Learn effective techniques to reduce stress and improve your mental and physical well-being.</p>
+      <a style="font-size: 24px; " href="https://www.health.harvard.edu/heart-health/7-ways-to-reduce-stress-and-keep-blood-pressure-down" class="text-orange-600 hover:text-blue-800">leran more</a>
+
+
+
+  </div>
+</section>
+
+ <!-- ends here -->
+  <!-- Footer stuff starts from here  -->
+<footer>
+    <div class="section-container footer-container">
+        <div class="footer-col">
+            <h3>Perfect <br> <span>Health-Care📍</span></h3>
+            <p>We are honored to be a part of your healthcare
+                journey and committed to delivering compassionate, personalised
+                and top-notch care every step of the way.</p>
+                
+        </div>
+        <div class="footer-col">
+            <h4>About Us</h4>
+            <p>Home</p>
+            <p><a href="service.html">See Services</a></p>
+            <p><a href="appointment.html">Book Appointment</a></p>
+            <p><a href="https://beamish-bubblegum-c900b0.netlify.app/assets/404">Follow Us</a></p>
+        </div>
+        <!-- opening hours -->
+         <div class="footer-col">
+          <h4>Opening Hours</h4>
+          <p>Monday - saturday: 8am - 5pm</p>
+          <p>Sunday : Closed</p>
+
+
+         </div>
+        
+        <div class="footer-col">
+            <h4>Contact Us</h4>
+            <p><i class="ri-map-pin-2-fill"></i><a href="https://maps.app.goo.gl/fvZGQaNQ8nNioLht9">Chadoora near SBI Bank</a></p>
+            <p><i class="ri-phone-fill"></i><a href="tel:+916006414088">Call Us</a></p>
+            <p><i class="ri-inbox-fill"></i><a href="mailto:xuvaxuva006@gmail.com">Email US</a></p>
+
+        </div>
+    </div>
+    <div class="footer-bar">
+        <div class="footer-bar-content">
+          <p style="font-size: 20px; font-family: Kalam, cursive; " >&copy; 2024 Perfect Health-Care. All rights reserved. Developed by <a style="font-family: Kalam, cursive;" href="https://github.com/Zuhaib-dev" target="_blank">Zuhaib Rashid</a>.</p>
+
+            <div class="footer-socials">
+              
+                <span><a href="https://www.youtube.com"><i class="ri-youtube-fill" style="font-size: 24px;"></i></a></span>
+<span><a href="https://www.instagram.com"><i class="ri-instagram-fill" style="font-size: 24px;"></i></a></span>
+<span><a href="#"><i class="ri-heart-fill" style="font-size: 24px;"></i></a></span>
+<span><a href="https://twitter.com"><i class="ri-twitter-x-fill" style="font-size: 24px;"></i></a></span>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="script.js"></script>
+
+<script>
+  var loader = document.getElementById("xuhaib");
+  window.addEventListener("load", function(){
+    loader.style.display = "none";
+  })
+</script>
+<script>
+  import { inject } from "@vercel/analytics"
+</script>
+</body>
+</html>
+<!-- This Project Belongs to the Zuhaib Rashid  -->
