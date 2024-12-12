@@ -537,11 +537,4 @@ h1.testimonials{
 button:focus {
     outline: none;
   }
-  #xuhaib{
-    background: skyblue url(preloader.gif) no-repeat center center ;
-    height: 100vh;
-    width: 100%;
-    position: fixed;
-    z-index: 1000;
-
-}
+ 
